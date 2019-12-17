@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.fragment_b.*
 class MainActivity : AppCompatActivity() {
 
     // Compare behavior with FragmentContainerView and FrameLayout
-    private val useFragmentContainerViewContainer = false
+    private val useFragmentContainerViewContainer = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
